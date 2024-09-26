@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人网站</title>
+</head>
+<body>
+    <form style="background-position: center;" action="#">
+        <label>用户名:</label>
+        <input type="text" id="username" placeholder="请输入用户名"><br><br>
+        <label>密码:</label>
+        <input type="password" id="password" placeholder="请输入密码"><br><br>
+        <label for="">性别</label>
+        <input type="radio" name="gender">男
+        <input type="radio" name="gender">女
+        <input type="radio" name="gender">其他<br><br>
+        <label>年龄:</label>
+        <input type="text" placeholder="请输入年龄"><br><br>
+        <label for="">爱好</label>
+        <input type="radio">唱
+        <input type="radio">跳
+        <input type="radio">rap
+        <input type="radio">篮球<br><br>
+        <label for="">学历</label>
+        <input type="radio" name="gender">幼儿园
+        <input type="radio" name="gender">小学
+        <input type="radio" name="gender">初中
+        <input type="radio" name="gender">高中
+        <input type="radio" name="gender">大学<br><br>
+        <input type="submit">
+    </form>
+</body>
+</html>
